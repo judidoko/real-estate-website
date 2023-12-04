@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  background-color: rgb(229, 228, 250);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #896ce8;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #896ce8 !important;
+}
+
+/* To remove scroll Bar */
+/* html::-webkit-scrollbar {
+  display: none;
+} */
+/* for Mozila firefox */
+/* html {
+  scrollbar-width: none;
+} */
