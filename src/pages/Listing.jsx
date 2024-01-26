@@ -74,8 +74,8 @@ const Listing = () => {
           Link Copied
         </p>
       )}
-      <div className="flex flex-col md:flex-row max-w-6xl lg:mx-auto m-4 p-4 rounded-lg  shadow-lg bg-white lg:space-x-5">
-        <div className="w-full h-[200px] lg:h-[400px]">
+      <div className="lg:mx-auto m-4 p-4 rounded-lg  shadow-lg bg-white lg:space-x-5">
+        <div className="w-full lg:h-[400px]">
           <p className="text-2xl font-bold mb-3 text-blue-900">
             {listing.name} ___ <span>&#8358;</span>
             {listing.offer
@@ -130,7 +130,6 @@ const Listing = () => {
             </li>
           </ul>
         </div>
-        <div className="w-full h-[200px] lg:h-[400px] z-10 overflow-hidden"></div>
       </div>
     </main>
   );

@@ -29,14 +29,14 @@ const Header = () => {
       <div className="bg-white border-b shadow-sm sticky top-0 z-50">
         <header className="flex justify-between items-center px-3 max-w-6xl mx-auto">
           <div>
-            <h1 className="h-5 cursor-pointer">
-              <Link to="/">Real Estate Project</Link>
+            <h1 className="h-5 cursor-pointer font-bold">
+              <Link to="/">JD Homes</Link>
             </h1>
           </div>
           <nav>
-            <ul className="flex space-x-10">
+            <ul className="flex space-x-8">
               <li
-                className="py-3 text-sm font-semibold text-gray-400 
+                className="py-3 sm:text-sm text-[12px] font-semibold text-gray-400 
                     border-b-[3px] border-b-transparent cursor-pointer"
               >
                 <NavLink to="/" style={navLinkStyles}>
@@ -44,7 +44,7 @@ const Header = () => {
                 </NavLink>
               </li>
               <li
-                className="py-3 text-sm font-semibold text-gray-400 
+                className="py-3 sm:text-sm text-[12px] font-semibold text-gray-400 
                     border-b-[3px] border-b-transparent cursor-pointer"
               >
                 <NavLink to="/about-us" style={navLinkStyles}>
@@ -52,7 +52,7 @@ const Header = () => {
                 </NavLink>
               </li>
               <li
-                className="py-3 text-sm font-semibold text-gray-400 
+                className="py-3 sm:text-sm text-[12px] font-semibold text-gray-400 
                     border-b-[3px] border-b-transparent cursor-pointer"
               >
                 <NavLink to="/offers" style={navLinkStyles}>
@@ -60,7 +60,7 @@ const Header = () => {
                 </NavLink>
               </li>
               <li
-                className="py-3 text-sm font-semibold text-gray-400 
+                className="py-3 sm:text-sm text-[12px] font-semibold text-gray-400 
                     border-b-[3px] border-b-transparent cursor-pointer"
               >
                 <NavLink to="/profile" style={navLinkStyles}>

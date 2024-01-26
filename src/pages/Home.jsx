@@ -110,7 +110,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <div className="">
+      <div>
         <Slider />
         <div className="max-w-6xl mx-auto pt-6 space-y-6">
           {/* Offer Section */}
