@@ -29,7 +29,7 @@ const GAuth = () => {
       }
       navigate("/");
     } catch (error) {
-      toast.error("Could not authorize with google");
+      toast.error("Could not authorize with google for now, try again");
     }
   }
 
