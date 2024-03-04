@@ -111,20 +111,20 @@ const Listing = () => {
             <span className="font-semibold">Description -</span>
             {listing.description}
           </p>
-          <ul className="flex items-center space-x-2 lg:space-x-10 text-sm font-semibold">
-            <li className="flex items-center whitespace-nowrap">
+          <ul className="md:flex flex-wrap mt-2 items-center lg:space-x-10 text-sm font-semibold">
+            <li className="flex items-center">
               <FaBed className="text-lg mr-2" />
               {+listing.bedrooms > 1 ? `${listing.bedrooms} Bedrooms` : ""}
             </li>
-            <li className="flex items-center whitespace-nowrap">
+            <li className="flex items-center ">
               <FaBath className="text-lg mr-2" />
               {+listing.bathrooms > 1 ? `${listing.bathrooms} Bathrooms` : ""}
             </li>
-            <li className="flex items-center whitespace-nowrap">
+            <li className="flex items-center ">
               <FaParking className="text-lg mr-2" />
               {listing.parking ? "With Parking Space" : "No Parking Space"}
             </li>
-            <li className="flex items-center whitespace-nowrap">
+            <li className="flex items-center ">
               <FaChair className="text-lg mr-2" />
               {listing.furnished ? "Furnished" : "Not Furnished"}
             </li>
